@@ -1,6 +1,6 @@
 from selene import browser, be, have
 
-
+#Имя теста
 browser.open('https://invoice.taxcom.ru/')
 browser.element('[id="loginPassTab"]').click()
 browser.element('[name="login"]').type('gendalf')
